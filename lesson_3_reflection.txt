@@ -30,3 +30,7 @@ i would have to use dropbox or email files
 using git is easier because we can track, edit and commit on changes 
 it would be hard to keep all the code and changes in sync
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+whenever you are doing something you arent 100% sure you're ready to share
+
