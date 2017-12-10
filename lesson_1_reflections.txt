@@ -35,3 +35,9 @@ then using git diff you can compare the changes made during each commit
 How might using version control make you more confident to make changes that could break something?
 
 its easy to go back and find where you made a mistake
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+making my own app one feature at a time

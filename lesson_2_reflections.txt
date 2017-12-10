@@ -13,3 +13,36 @@ that commit will then go into the repository
 the working directory can contain new and uncommited changes
 it can also contain files you arent ready to commit
 the value is having a place to hold pending changes
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+you can diff the stating area and the working directory with git diff
+then you can make sure there arent too many changes 
+if there are you can figure out how to break them up
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+when you are creating a new large feature
+when you are trying out an experiment
+branches give you a clean playspace
+you can do whatever you want without worrying about breaking the project
+
+How do the diagrams help you visualize the branch structure?
+
+it can help you see the parents of a commmit
+it helps you see unreachable commits
+it helps you see which changes your branch is missing
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+you interleave the commit history of both branches
+you have all the features of both branch
+the diagram helps show the history of the commits and what could be lost
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro: you dont have to do anything
+Con: you have to do something
+Pro: you can do what you want
+Con: git could mess things up
